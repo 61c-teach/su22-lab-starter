@@ -60,12 +60,12 @@ def download(url, dest_path, prefix="", progress=True):
 
 if __name__ == "__main__":
     download(
-        "https://inst.eecs.berkeley.edu/~cs61c/tools/logisim-evolution-latest.jar",
+        "https://inst.eecs.berkeley.edu/~cs61c/su22/tools/logisim-evolution-latest.jar",
         logisim_path,
         prefix="[logisim-evolution] ",
     )
     download(
-        "https://inst.eecs.berkeley.edu/~cs61c/tools/venus-latest.jar",
+        "https://inst.eecs.berkeley.edu/~cs61c/su22/tools/venus-latest.jar",
         venus_path,
         prefix="[venus] ",
     )
